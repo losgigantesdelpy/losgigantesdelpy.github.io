@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="LOS_GIGANTES_DEL_PARAGUAY" version="0.1.3">
+ <settings>
+  <title>Quemil Yambay</title>
+  <revision description="created" date="4/5/24" />
+  <author name="Jonathan Rodriguez" rol="estudiante" />
+  <descriptors area-codes="mus" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="1-pantalla principal" name="1-Pantalla principal" navButtons="fwd">
+   <jump tag="2-2da portada" id="forward" />
+  </item>
+  <item id="2-2da portada" name="2-2da portada" navButtons="fwd">
+   <jump tag="3-Menú de Quemil" id="forward" />
+  </item>
+  <item id="3-Menú de Quemil" name="3-Menú de Quemil" navButtons="fwd">
+   <jump tag="16-Menú de Emiliano" id="forward" />
+  </item>
+  <item id="4-quemil yambay" name="4-quemil yambay" navButtons="fwd">
+   <jump tag="3-Menú de Quemil" id="forward" />
+   <jump tag="3-Menú de Quemil" id="back" />
+  </item>
+  <item id="5-MEMORIZA" name="5-MEMORIZA" navButtons="fwd">
+   <jump tag="6-memoriza" id="forward" />
+  </item>
+  <item id="6-memoriza" name="6-memoriza" navButtons="fwd">
+   <jump tag="7-memoriza" id="forward" />
+  </item>
+  <item id="7-memoriza" name="7-memoriza" navButtons="fwd">
+   <jump tag="3-Menú de Quemil" id="forward" />
+  </item>
+  <item id="8-sopapo" name="8-sopapo" navButtons="fwd">
+   <jump tag="9-sopapo" id="forward" />
+  </item>
+  <item id="9-sopapo" name="9-sopapo" navButtons="fwd">
+   <jump tag="10-sopapo" id="forward" />
+  </item>
+  <item id="10-sopapo" name="10-sopapo" navButtons="fwd">
+   <jump tag="3-Menú de Quemil" id="forward" />
+  </item>
+  <item id="11-puzzle" name="11-puzzle" navButtons="fwd">
+   <jump tag="12-puzzle" id="forward" />
+  </item>
+  <item id="12-puzzle" name="12-puzzle" navButtons="fwd">
+   <jump tag="13-puzzle" id="forward" />
+  </item>
+  <item id="13-puzzle" name="13-puzzle" navButtons="fwd">
+   <jump tag="3-Menú de Quemil" id="forward" />
+  </item>
+  <item id="14-aso simple" name="14-aso simple" navButtons="fwd">
+   <jump tag="15-aso simple" id="forward" />
+  </item>
+  <item id="15-aso simple" name="15-aso simple">
+   <jump tag="16-Menú de Emiliano" id="forward" />
+  </item>
+  <item id="16-Menú de Emiliano" name="16-Menú de Emiliano" navButtons="fwd">
+   <jump tag="27-Menú de luis" id="forward" />
+  </item>
+  <item id="17-Información" name="17-Información" navButtons="fwd">
+   <jump tag="16-Menú de Emiliano" id="forward" />
+  </item>
+  <item id="18-MEMORIZA" name="18-MEMORIZA" navButtons="fwd">
+   <jump tag="19-MEMORIZA" id="forward" />
+  </item>
+  <item id="19-MEMORIZA" name="19-MEMORIZA" navButtons="fwd">
+   <jump tag="20-MEMORIZA" id="forward" />
+  </item>
+  <item id="20-MEMORIZA" name="20-MEMORIZA" navButtons="fwd">
+   <jump tag="16-Menú de Emiliano" id="forward" />
+  </item>
+  <item id="21-sopapo" name="21-sopapo" navButtons="fwd">
+   <jump tag="22-sopapo" id="forward" />
+  </item>
+  <item id="22-sopapo" name="22-sopapo" navButtons="fwd">
+   <jump tag="23-sopapo" id="forward" />
+  </item>
+  <item id="23-sopapo" name="23-sopapo" navButtons="fwd">
+   <jump tag="16-Menú de Emiliano" id="forward" />
+  </item>
+  <item id="24-puzzle" name="24-puzzle" navButtons="fwd">
+   <jump tag="25-puzzle" id="forward" />
+  </item>
+  <item id="25-puzzle" name="25-puzzle" navButtons="fwd">
+   <jump tag="26-puzzle" id="forward" />
+  </item>
+  <item id="26-puzzle" name="26-puzzle">
+   <jump tag="27-Menú de luis" id="forward" />
+  </item>
+  <item id="27-Menú de luis" name="27-Menú de Luis" navButtons="fwd">
+   <jump tag="38-Pantalla final" id="forward" />
+  </item>
+  <item id="28-INFORMACION" name="28-INFORMACION" navButtons="fwd">
+   <jump tag="27-Menú de luis" id="forward" />
+  </item>
+  <item id="29-MEMORIZA" name="29-MEMORIZA" navButtons="fwd">
+   <jump tag="30-MEMORIZA" id="forward" />
+  </item>
+  <item id="30-MEMORIZA" name="30- MEMORIZA">
+   <jump tag="31-MEMORIZA" id="forward" />
+  </item>
+  <item id="31-MEMORIZA" name="31-MEMORIZA">
+   <jump tag="27-Menú de luis" id="forward" />
+  </item>
+  <item id="32-Sopa de letra" name="32- Sopa de letra" navButtons="fwd">
+   <jump tag="33-Sopa de letra" id="forward" />
+  </item>
+  <item id="33-Sopa de letra" name="33- Sopa de letra">
+   <jump tag="34-sopa de letra" id="forward" />
+  </item>
+  <item id="34-sopa de letra" name="34-sopa de letra">
+   <jump tag="27-Menú de luis" id="forward" />
+  </item>
+  <item id="35-puzzle" name="35-puzzle" navButtons="fwd">
+   <jump tag="36-puzzle" id="forward" />
+  </item>
+  <item id="36-puzzle" name="36-puzzle">
+   <jump tag="37-puzzle" id="forward" />
+  </item>
+  <item id="37-puzzle" name="37- puzzle">
+   <jump tag="27-Menú de luis" id="forward" />
+  </item>
+  <item id="38-Pantalla final" name="38-Pantalla final" navButtons="fwd">
+   <jump tag="1-pantalla principal" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Identify" name="1-Pantalla principal" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial Black" size="26" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>BIENVENIDOS!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell id="0" image="logo del paraguayy.png">
+     <style borderStroke="5.0" markerStroke="5.0">
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="0" image="Republica-del-Paraguay.png.png">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="0" image="logo mec.png">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="0" image="84573-banderas-amrica-paraguay-corazn.gif">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="0" image="Agregar un subtítulo_20241010_150505_0000.png">
+     <style borderStroke="4.7" markerStroke="5.0">
+      <color foreground="0xFFFFFF" background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="0" image="84573-banderas-amrica-paraguay-corazn.gif">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="0">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <font family="Baskerville Old Face" size="36" />
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+     <p>PRIMER AÑO</p>
+     <p>B.T.I</p>
+    </cell>
+    <cell id="0">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <font family="Baskerville Old Face" size="36" />
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+     <p>2024</p>
+    </cell>
+    <cell id="0" image="insignia nuevo juan pablo -resized.jpg">
+     <style borderStroke="4.7" markerStroke="2.7">
+      <font family="Baskerville Old Face" size="18" />
+      <color background="0xFFFFFF" border="0xFF0000" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="10-sopapo" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>Encuentra las palabras: Paraguayo ,Polka , Guarania</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡INTENTALO DE NUEVO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="60" countDownTime="true" maxActions="11" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="200.0" cellHeight="200.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>POLKAERTYJ</row>
+     <row>UIASDFGHJD</row>
+     <row>KLÑZXCVBNL</row>
+     <row>PARAGUAYOE</row>
+     <row>DEZXCVBPON</row>
+     <row>IASDFGFGHP</row>
+     <row>LKLIUYTREÑ</row>
+     <row>WXCVBNMJHC</row>
+     <row>HGUARANIAL</row>
+     <row>NBVYUIMNBS</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">PARAGUAYO</clue>
+    <clue id="1">POLKA</clue>
+    <clue id="2">GUARANIA</clue>
+   </clues>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="11-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>UNE EL ROMPÉ CABEZA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="120" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="FB_IMG_1717368061394-resized1.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="12-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>UNE EL ROMPE CABEZAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="100" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="FB_IMG_1717368087823-resized1.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="13-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>UNE EL ROMPE CABEZAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="80" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="FB_IMG_1717368093457-resized1.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="14-aso simple" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>Escucha las canciones y unelas  corretamente</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" maxActions="5" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell image="im4.jpg">
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="descarga.jpg">
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="png.com.png">
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="250.0" cellHeight="250.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="areko-cuatro-kuna.mp3" />
+     <p>PRESIONA Y ESCUCHA EL SONIDO</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Y2meta.app-Quemil Yambay &amp; los Alfonsinos - Ajupita de Presidente [Polka]-(128kbps).ogg" />
+     <p>PRESIONA Y ESCUCHA EL SONIDO</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Y2meta.app-Che Rancho Yhaguy Ari-(128kbps).ogg" />
+     <p>PRESIONA Y ESCUCHA EL SONIDO</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="15-aso simple" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>Escucha las canciones y unelas correctamente</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="60" countDownTime="true" maxActions="3" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell image="FB_IMG_1717368208364-resized1.jpg">
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="emiliano.jpg">
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="250.0" cellHeight="250.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell>
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Mokoi Guyra´i.mp3" />
+     <p>PRESIONA Y ESCUCHA LA MÚSICA</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="20" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Che la Reina - Emiliano R. Fernández (youtube).mp3" />
+     <p>PRESIONA Y ESCUCHA LA MÚSICA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="16-Menú de Emiliano" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="36" />
+     </style>
+     <p>Precione podra ver la Información y Jugar</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" />
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="300.0" cellHeight="100.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Actividades de Emiliano R.Fernandez</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="17-Información" />
+     <p>INFORMACIÓN</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="18-MEMORIZA" />
+     <p>MEMORIZA</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="21-sopapo" />
+     <p>SOPAPO</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="24-puzzle" />
+     <p>PUZZLE</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.Identify" name="17-Información" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="1.7" markerStroke="2.7">
+      <font family="Arial Black" size="24" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>ÉL ES EMILIANO R. FERNANDEZ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell id="0">
+     <style margin="5" borderStroke="1.7" markerStroke="5.0">
+      <font family="Arial Black" size="20" />
+      <color foreground="0x333333" background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Emiliano R. Fernadez: Nació en Asunción,el 8 de agosto de 1894(Fue un poeta,músico y soldado paraguayo)</p>
+    </cell>
+    <cell id="0" border="true" image="emiliano-resized.jpg">
+     <style margin="5" borderStroke="1.7" markerStroke="5.0">
+      <font family="Arial Black" size="20" />
+      <color foreground="0x0033CC" background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="18-MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Encuentra las imagenes correctas!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo  de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="30" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="emrfernandez rt.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="emiliano-r-fernandez-luis-g-benitez-historia-de-grandes-hombres.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="i01-emiliano-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="19-MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Encuentra las imagenes correctas!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="25" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" />
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="images 4566.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="images789.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="i01-EMILIANO 2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="2-2da portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="20" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Son los personajes que usamos para la gamificación</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="300.0" cellHeight="100.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Actividades</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Quemil yambay</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Emiliano R. Fernandez</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Luis Alberto del Paraná</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>1ro BTI</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="20-MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Encuentra las imagenes correctas!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="20" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="EMILIANO 5-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="EMILIANO 4-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="i01-EMILIANO 3.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="21-sopapo" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>Encuentra las palabras:Emiliano,Fernandez,Rivarola</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="120" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="100.0" cellHeight="100.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>ARCHRIERUH</row>
+     <row>HIFGHFFDOZ</row>
+     <row>HVHERUIGEE</row>
+     <row>IAWFGAUHGD</row>
+     <row>WRJHUJGIHN</row>
+     <row>DOKYHERGUA</row>
+     <row>HLRUIIWEGN</row>
+     <row>DATREEDOKR</row>
+     <row>CVXGJXKNXE</row>
+     <row>EMILIANOKF</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">EMILIANO</clue>
+    <clue id="1">FERNANDEZ</clue>
+    <clue id="2">RIVAROLA</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="22-sopapo" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>Encuentra las palabras:Musico,Poeta,Compositor</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="100.0" cellHeight="100.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>RPCPOETAKM</row>
+     <row>HDSGHDHGUH</row>
+     <row>GGHDHGDSIZ</row>
+     <row>MVBTYUISDF</row>
+     <row>FDGSUCMJCH</row>
+     <row>PYISOOTGNV</row>
+     <row>BKDJUUJFSU</row>
+     <row>NMOPHDFXSJ</row>
+     <row>SASDGUGYFJ</row>
+     <row>COMPOSITOR</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">MUSICO</clue>
+    <clue id="1">POETA</clue>
+    <clue id="2">COMPOSITOR</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="23-sopapo" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>Encuentra las palabras:Separacion,Ingratitud,Alborada</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="60" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="100.0" cellHeight="100.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>SEPARACION</row>
+     <row>HEFBCUWDCJ</row>
+     <row>HSGDSYHGTG</row>
+     <row>INGRATITUD</row>
+     <row>WOYIOIIUEI</row>
+     <row>FUWQIEGEKJ</row>
+     <row>GKVHGYETGU</row>
+     <row>YBNCJOISYW</row>
+     <row>EYJHDCVNMB</row>
+     <row>ALBORADAFG</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">SEPARACION</clue>
+    <clue id="1">INGRATITUD</clue>
+    <clue id="2">ALBORADA</clue>
+   </clues>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="24-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>Úne el rompe cabeza</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="120" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="EMILIANO 2.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="25-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>Úne el rompe cabeza</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="100" countDownTime="true" maxActions="13" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="EMILIANO 3.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="26-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>Úne el rompe cabeza</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xCC9900" angle="36" />
+     </style>
+     <p>¡Intentalo de nuevo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="80" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="i01-EMILIANO 4-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="27-Menú de Luis" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>Presione podra ver la Información y Jugar</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="300.0" cellHeight="100.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="0" />
+     </style>
+     <p>Actividades de Luís Alberto del Paraná</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="28-INFORMACION" />
+     <p>INFORMACIÓN</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="29-MEMORIZA" />
+     <p>MEMORIZA</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="32- Sopa de letra" />
+     <p>SOPAPO</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="35-puzzle" />
+     <p>PUZZLE</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="28-INFORMACION" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="0" />
+     </style>
+     <p>ÉL ES LUÍS ALBERTO DEL PARANÁ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="400.0" cellHeight="400.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="20" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="0" />
+     </style>
+     <p>LUÍS ALBERTO DEL PARANÁ:</p>
+     <p>Nació en altos del paraguay,El 21 de junio del 1926(Fue un músico,Compositor,Cantante e interprete paraguayo)</p>
+    </cell>
+    <cell image="i01-imagen de luis.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="20" />
+      <color foreground="0xCCFFFF" background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xCC9900" angle="98" />
+     </style>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="29-MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFFCC00" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Encuentras las imagenes correctas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFFCC00" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFFCC00" dest="0xFF3333" angle="245" />
+     </style>
+     <p>intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="30" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="imagen de luis.jpg" />
+    <cell image="203891827_819823092242306_2047734022725940247_n.jpg" />
+    <cell image="descargaaaaaaaaa.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="3-Menú de Quemil" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Precione podra ver la Informacion y Jugar</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="300.0" cellHeight="100.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Activades de Quemil Yambay</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="4-quemil yambay" />
+     <p>INFORMACIÓN</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="5-MEMORIZA" />
+     <p>MEMORIZA</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="8-sopapo" />
+     <p>SOPAPO</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="11-puzzle" />
+     <p>PUZZLE</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="14-aso simple" />
+     <p>ASO SIMPLE </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="30- MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Encuentra las imagenes correctas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="25" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="descarga-resized.jpg" />
+    <cell image="images123.jpg" />
+    <cell image="images1234.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="31-MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Encuentra las imagenes correctas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="20" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="i01-images1234.jpg" />
+    <cell image="images321.jpg" />
+    <cell image="DREXSDXBPZEYPEUUYUQ2NDDX44.pgn-resized1.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="32- Sopa de letra" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Encuentra las palabras: luis, alberto, parana</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡Lo lograsteeres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡INTENTALO DE NUEVO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="120" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="220.0" cellHeight="220.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>TYUTHJKTGJ</row>
+     <row>KLUISÑKYUL</row>
+     <row>CBFHBTOPIG</row>
+     <row>CRAKUUUYTN</row>
+     <row>GGPARANAAM</row>
+     <row>JKIOOIURRC</row>
+     <row>HALBERTORY</row>
+     <row>GJHJIOIYAP</row>
+     <row>HBDHUDHHHZ</row>
+     <row>HOJKKÑUYIF</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">LUIS</clue>
+    <clue id="1">ALBERTO</clue>
+    <clue id="2">PARANA</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="33- Sopa de letra" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Encuentra las palabras:	Guitarra, cantante,musico</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell avoidOverlapping="true" type="finalError">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡INTENTALO DE NUEVO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="100" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="200.0" cellHeight="200.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>ABCANTANTE</row>
+     <row>MKGXNBMNMM</row>
+     <row>UXSESRHJIO</row>
+     <row>SRYTTYTIAF</row>
+     <row>IHFJKLÑZXC</row>
+     <row>CBNMQWERTY</row>
+     <row>OIOPASDFGH</row>
+     <row>JKLÑZXCVBN</row>
+     <row>MÑLKJHGFDS</row>
+     <row>AGUITARRAW</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">GUITARRA</clue>
+    <clue id="1">CANTANTE</clue>
+    <clue id="2">MUSICO</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="34-sopa de letra" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>Encuentra las palabras:Interprete,paraguayo,cantautor</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>Intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="60" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="200.0" cellHeight="200.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>INTERPRETE</row>
+     <row>FGGUYTRFTU</row>
+     <row>GUCGYHSGCO</row>
+     <row>IOIPIUYTUG</row>
+     <row>CANTAUTORP</row>
+     <row>TRFDOFGUHU</row>
+     <row>ASFGHUKLÑE</row>
+     <row>RTYUIKYLÑJ</row>
+     <row>KHGUYDCPUI</row>
+     <row>PARAGUAYOI</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">INTERPRETE</clue>
+    <clue id="1">PARAGUAYO</clue>
+    <clue id="2">CANTAUTOR</clue>
+   </clues>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="35-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF6633" dest="0xFF6633" angle="245" />
+     </style>
+     <p>Úne el rompe cabeza</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>¡Lo has logrado!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF9900" dest="0xFF3333" angle="245" />
+     </style>
+     <p>Intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="120" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="images5678.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="36-puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>Úne el rompe cabeza</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>¡Lo has logrado!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>Intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="100" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="i01-images321.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="37- puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>Úne el rompe cabeza</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>¡Lo has logrado!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF3333" dest="0xFFCC00" angle="245" />
+     </style>
+     <p>Intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="80" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i02-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="i01-DREXSDXBPZEYPEUUYUQ2NDDX44.pgn-resized1.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="38-Pantalla final" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial Black" size="17" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Mokoi Guyra´i.mp3" />
+     <p>¡GRACIAS POR PARTICIPAR!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="400.0" cellHeight="400.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell image="insignia nuevo juan pablo -resized.jpg">
+     <style borderStroke="5.7" markerStroke="5.0">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+    </cell>
+    <cell image="Republica-del-Paraguay.png.png">
+     <style borderStroke="5.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+    </cell>
+    <cell image="Agregar un subtítulo_20241010_150505_0000.png">
+     <style borderStroke="5.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+    </cell>
+    <cell>
+     <style borderStroke="5.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+     <p>Integrantes: Kiara Salinas,Jessica Rodriguez,Facundo Samaniego,Fabrizio Ferreira,Jonathan Rodriguez </p>
+    </cell>
+    <cell>
+     <style borderStroke="5.7" markerStroke="5.0">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+     <p>COORDINADORES: Soledad Alonso,Diana Cantero,Maria Mercado </p>
+    </cell>
+    <cell>
+     <style borderStroke="5.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+     <p>Sitio wed:kiara salinas,Fabrizio Ferreira</p>
+    </cell>
+    <cell>
+     <style borderStroke="6.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+     <p>ELABORADOR: Jorge Arevales</p>
+    </cell>
+    <cell>
+     <style borderStroke="5.7" markerStroke="2.7">
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Mokoi Guyra´i.mp3" />
+    </cell>
+    <cell>
+     <style borderStroke="5.7" markerStroke="2.7">
+      <font family="Baskerville Old Face" size="22" />
+      <color background="0xFFFFFF" border="0xFF0033" />
+     </style>
+     <p>Primer Año </p>
+     <p>BTI 2024</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="4-quemil yambay" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial Black" size="24" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>ÉL ES QUEMIL YAMBAY</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="500.0" cellHeight="500.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="22" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+     <p>Quemil Yambay: Nació el 10 de marzo de 1938 ,es  un músico , cantante , compositor e imitador paraguayo</p>
+    </cell>
+    <cell image="1712319608171.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+      <gradient source="0xFF3333" dest="0xFF9900" angle="0" />
+     </style>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="5-MEMORIZA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <gradient source="0xFF0000" dest="0xFFFF00" angle="0" />
+     </style>
+     <p>Encuentra las imagenes correctas </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <gradient source="0xFF0000" dest="0xFFFF00" angle="0" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <gradient source="0xFF0000" dest="0xFFFF00" angle="0" />
+     </style>
+     <p>intentalo de nuevo</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="30" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="FB_IMG_1717368061394-resized1.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="GH9A0914in.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="FB_IMG_1717368087823-resized1.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="6-memoriza" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡MEMORIZA LAS  IMAGENES Y ÚNELAS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="25" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="1712319608052-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="1712319608171.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="1712319607973.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="7-memoriza" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡MEMORIZA LAS IMAGENES Y ÚNELAS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡LO LOGRASTE ERES UN GENIO!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="20" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="250.0" cellHeight="250.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="1712319608013.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="1712319608132-resized1.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="1712319608093-resized1.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="8-sopapo" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>Encuentra las palabras: Quemil , Yambay , Rodriguez</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡INTENTALO DE NUEVO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="120" countDownTime="true" maxActions="15" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="200.0" cellHeight="200.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>VFGPOPREGJ</row>
+     <row>HRODRIGUEZ</row>
+     <row>RUIEROWDBC</row>
+     <row>SCVXBCUYUY</row>
+     <row>QIWQBGDFCA</row>
+     <row>NUWITYOQWM</row>
+     <row>WQECHDGFVB</row>
+     <row>XDMMFURYTA</row>
+     <row>WUPOIUUOIY</row>
+     <row>TJIORLTYNC</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">RODRIGUEZ</clue>
+    <clue id="1">QUEMIL</clue>
+    <clue id="2">YAMBAY</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="9-sopapo" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>Encuentra las palabras: Canto , Imitador , Microfono</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡Lo lograste eres un genio!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="20" />
+      <gradient source="0xFF3333" dest="0xFFCC33" angle="0" />
+     </style>
+     <p>¡INTENTALO DE NUEVOI!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" maxActions="12" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="20240813_175623_485-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000000" transparent="true" border="true">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" cycles="15" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="200.0" cellHeight="200.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>ERPCANTOHI</row>
+     <row>FNJFHYIWQM</row>
+     <row>IBVWIEGEOR</row>
+     <row>MIHERUNVBC</row>
+     <row>IÓEIRYQWRY</row>
+     <row>TMICROFONO</row>
+     <row>AVQWERTYUO</row>
+     <row>DPJKRIUOIE</row>
+     <row>ORGJGHKERO</row>
+     <row>REGINFJLER</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CANTO</clue>
+    <clue id="1">IMITADOR</clue>
+    <clue id="2">MICROFONO</clue>
+   </clues>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="84573-banderas-amrica-paraguay-corazn.gif" file="84573-banderas-amrica-paraguay-corazn.gif" animated="true" />
+  <media name="i01-paraguay-flag-gif.gif" file="i01-paraguay-flag-gif.gif" animated="true" />
+  <media name="paraguay-flag-gif.gif" file="paraguay-flag-gif.gif" animated="true" />
+  <media name="1712319607973.jpg" file="1712319607973.jpg" />
+  <media name="1712319608013.jpg" file="1712319608013.jpg" />
+  <media name="1712319608052-resized.jpg" file="1712319608052-resized.jpg" />
+  <media name="1712319608093-resized1.jpg" file="1712319608093-resized1.jpg" />
+  <media name="1712319608132-resized1.jpg" file="1712319608132-resized1.jpg" />
+  <media name="1712319608171.jpg" file="1712319608171.jpg" />
+  <media name="20240813_175623_485-resized.jpg" file="20240813_175623_485-resized.jpg" />
+  <media name="203891827_819823092242306_2047734022725940247_n.jpg" file="203891827_819823092242306_2047734022725940247_n.jpg" />
+  <media name="arton73934.jpg" file="arton73934.jpg" />
+  <media name="che symi pora (1)-resized.jpg" file="che_symi_pora__1_-resized.jpg" />
+  <media name="descarga-resized.jpg" file="descarga-resized.jpg" />
+  <media name="descarga.jpg" file="descarga.jpg" />
+  <media name="descargaaaaaaaaa.jpg" file="descargaaaaaaaaa.jpg" />
+  <media name="DREXSDXBPZEYPEUUYUQ2NDDX44.pgn-resized1.jpg" file="drexsdxbpzeypeuuyuq2nddx44.pgn-resized1.jpg" />
+  <media name="EMILIANO 2.jpg" file="emiliano_2.jpg" />
+  <media name="EMILIANO 3.jpg" file="emiliano_3.jpg" />
+  <media name="EMILIANO 4-resized.jpg" file="emiliano_4-resized.jpg" />
+  <media name="EMILIANO 5-resized.jpg" file="emiliano_5-resized.jpg" />
+  <media name="emiliano-r-fernandez-luis-g-benitez-historia-de-grandes-hombres.jpg" file="emiliano-r-fernandez-luis-g-benitez-historia-de-grandes-hombres.jpg" />
+  <media name="emiliano-resized.jpg" file="emiliano-resized.jpg" />
+  <media name="emiliano.jpg" file="emiliano.jpg" />
+  <media name="emrfernandez rt.jpg" file="emrfernandez_rt.jpg" />
+  <media name="FB_IMG_1717368051516-resized.jpg" file="fb_img_1717368051516-resized.jpg" />
+  <media name="FB_IMG_1717368061394-resized1.jpg" file="fb_img_1717368061394-resized1.jpg" />
+  <media name="FB_IMG_1717368087823-resized1.jpg" file="fb_img_1717368087823-resized1.jpg" />
+  <media name="FB_IMG_1717368093457-resized1.jpg" file="fb_img_1717368093457-resized1.jpg" />
+  <media name="FB_IMG_1717368186711-resized1.jpg" file="fb_img_1717368186711-resized1.jpg" />
+  <media name="FB_IMG_1717368208364-resized1.jpg" file="fb_img_1717368208364-resized1.jpg" />
+  <media name="GH9A0914in.jpg" file="gh9a0914in.jpg" />
+  <media name="Gobierno-del-Paraguay_png-transparente-resized.jpg" file="gobierno-del-paraguay_png-transparente-resized.jpg" />
+  <media name="grito.jpg" file="grito.jpg" />
+  <media name="guitarra 34-resized.jpg" file="guitarra_34-resized.jpg" />
+  <media name="i01-20240813_175623_485-resized.jpg" file="i01-20240813_175623_485-resized.jpg" />
+  <media name="i01-descarga.jpg" file="i01-descarga.jpg" />
+  <media name="i01-DREXSDXBPZEYPEUUYUQ2NDDX44.pgn-resized1.jpg" file="0drexsdxbpzeypeuuyuq2nddx44.pgn-resized1.jpg" />
+  <media name="i01-EMILIANO 2.jpg" file="i01-emiliano_2.jpg" />
+  <media name="i01-EMILIANO 3.jpg" file="i01-emiliano_3.jpg" />
+  <media name="i01-EMILIANO 4-resized.jpg" file="0emiliano_4-resized.jpg" />
+  <media name="i01-emiliano-resized.jpg" file="i01-emiliano-resized.jpg" />
+  <media name="i01-guitarra 34-resized.jpg" file="0guitarra_34-resized.jpg" />
+  <media name="i01-imagen de luis.jpg" file="imagen_de_luis.jpg" />
+  <media name="i01-images1234.jpg" file="images1234.jpg" />
+  <media name="i01-images321.jpg" file="images321.jpg" />
+  <media name="i01-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i010-guitarra 34-resized.jpg" file="i02-guitarra_34-resized.jpg" />
+  <media name="i010-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i011-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i02-20240813_175623_485-resized.jpg" file="i01-20240813_175623_485-resized.jpg" />
+  <media name="i02-guitarra 34-resized.jpg" file="1guitarra_34-resized.jpg" />
+  <media name="i02-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i03-guitarra 34-resized.jpg" file="i01-guitarra_34-resized.jpg" />
+  <media name="i03-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i04-guitarra 34-resized.jpg" file="0i02-guitarra_34-resized.jpg" />
+  <media name="i04-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i05-guitarra 34-resized.jpg" file="1i02-guitarra_34-resized.jpg" />
+  <media name="i05-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i06-guitarra 34-resized.jpg" file="2i02-guitarra_34-resized.jpg" />
+  <media name="i06-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i07-guitarra 34-resized.jpg" file="3i02-guitarra_34-resized.jpg" />
+  <media name="i07-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i08-guitarra 34-resized.jpg" file="4i02-guitarra_34-resized.jpg" />
+  <media name="i08-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="i09-guitarra 34-resized.jpg" file="5i02-guitarra_34-resized.jpg" />
+  <media name="i09-klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="im4.jpg" file="im4.jpg" />
+  <media name="imagen de luis.jpg" file="0imagen_de_luis.jpg" />
+  <media name="images (1).jpg" file="images__1_.jpg" />
+  <media name="images (3).jpg" file="images__3_.jpg" />
+  <media name="images (6).jpg" file="images__6_.jpg" />
+  <media name="images (8).jpg" file="images__8_.jpg" />
+  <media name="images ++++++.jpg" file="images_______.jpg" />
+  <media name="images 4566.jpg" file="images_4566.jpg" />
+  <media name="images123.jpg" file="images123.jpg" />
+  <media name="images1234.jpg" file="images1234.jpg" />
+  <media name="images321.jpg" file="images321.jpg" />
+  <media name="images5678.jpg" file="images5678.jpg" />
+  <media name="images789.jpg" file="images789.jpg" />
+  <media name="insignia nuevo juan pablo -resized.jpg" file="insignia_nuevo_juan_pablo_-resized.jpg" />
+  <media name="Jose Asuncion.jpg" file="jose_asuncion.jpg" />
+  <media name="klipartz.com (3)-resized.jpg" file="klipartz.com__3_-resized.jpg" />
+  <media name="klipartz.com-resized.jpg" file="klipartz.com-resized.jpg" />
+  <media name="logo del proyecto-resized.jpg" file="logo_del_proyecto-resized.jpg" />
+  <media name="luis alberto.jpg" file="luis_alberto.jpg" />
+  <media name="luis-alberto-del-parana-luis-g-benitez-historia-de-grandes-hombres.jpg" file="luis-alberto-del-parana-luis-g-benitez-historia-de-grandes-hombres.jpg" />
+  <media name="Marilina.jpg" file="marilina.jpg" />
+  <media name="Quemil+Yambay.jpg" file="quemil_yambay.jpg" />
+  <media name="quemil.jpg" file="quemil.jpg" />
+  <media name="areko-cuatro-kuna.mp3" file="areko-cuatro-kuna.mp3" />
+  <media name="Che la Reina - Emiliano R. Fernández (youtube).mp3" file="che_la_reina_-_emiliano_r._fernandez__youtube_.mp3" />
+  <media name="che-sy-mi-pora_vKiHpLD2.mp3" file="che-sy-mi-pora_vkihpld2.mp3" />
+  <media name="José Asuncion Flores - India.mp3" file="jose_asuncion_flores_-_india.mp3" />
+  <media name="Marilina - Cero Corazón.mp3" file="marilina_-_cero_corazon.mp3" />
+  <media name="Mi guitarra y mi voz - Luis Alberto del Paraná.mp3" file="mi_guitarra_y_mi_voz_-_luis_alberto_del_parana.mp3" />
+  <media name="Mokoi Guyra´i.mp3" file="mokoi_guyra_i.mp3" />
+  <media name="y2mate.com - Voy gritando.mp3" file="y2mate.com_-_voy_gritando.mp3" />
+  <media name="Y2meta.app - Che la Reina (320 kbps).mp3" file="y2meta.app_-_che_la_reina__320_kbps_.mp3" />
+  <media name="Y2meta.app-Che Rancho Yhaguy Ari-(128kbps).ogg" file="y2meta.app-che_rancho_yhaguy_ari-_128kbps_.ogg" />
+  <media name="Y2meta.app-Mariposa para mi-(128kbps).ogg" file="y2meta.app-mariposa_para_mi-_128kbps_.ogg" />
+  <media name="Y2meta.app-Quemil Yambay &amp; los Alfonsinos - Ajupita de Presidente [Polka]-(128kbps).ogg" file="y2meta.app-quemil_yambay___los_alfonsinos_-_ajupita_de_presidente__polka_-_128kbps_.ogg" />
+  <media name="Agregar un subtítulo_20241010_150505_0000.png" file="agregar_un_subtitulo_20241010_150505_0000.png" />
+  <media name="descarga.png" file="descarga.png" />
+  <media name="i01-logo mec.png" file="i01-logo_mec.png" />
+  <media name="images.png" file="images.png" />
+  <media name="logo del paraguayy.png" file="logo_del_paraguayy.png" />
+  <media name="logo mec.png" file="logo_mec.png" />
+  <media name="png.com.png" file="png.com.png" />
+  <media name="Republica-del-Paraguay.png.png" file="republica-del-paraguay.png.png" />
+ </mediaBag>
+</JClicProject>
+
